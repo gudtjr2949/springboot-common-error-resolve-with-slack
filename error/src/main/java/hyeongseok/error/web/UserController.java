@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
 
     @GetMapping("/un-authorized")
-    public ResponseEntity<UserResultDto> unAuthorized() {
+    public ResponseEntity<Object> unAuthorized() {
         throw new RestApiException(CommonErrorCode.UNAUTHORIZED);
     }
 
     @GetMapping("/expired-refresh-token")
-    public ResponseEntity<UserResultDto> expiredRefreshToken() {
+    public ResponseEntity<Object> expiredRefreshToken() {
         throw new RestApiException(CommonErrorCode.EXPIRED_REFRESH_TOKEN);
     }
 
