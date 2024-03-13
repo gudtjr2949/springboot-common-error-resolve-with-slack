@@ -5,3 +5,7 @@ spring:
   web:
     resources:
       add-mappings: false
+
+webhook:
+  slack:
+    url: {SLACK_WEBHOOK_URL}

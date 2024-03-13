@@ -3,7 +3,6 @@ package hyeongseok.error.web;
 import hyeongseok.error.exception.CommonErrorCode;
 import hyeongseok.error.exception.RestApiException;
 import hyeongseok.error.web.dto.UserRequestDto;
-import hyeongseok.error.web.dto.UserResultDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
